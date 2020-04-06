@@ -1,0 +1,58 @@
+h1 {
+    font: normal 16px/1 "boogaloo", Helvetica, sans-serif;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.5) ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+body{  
+    font-family:Georgia, Arial, Helvetica, Sans-serif,serif;
+    font-size:15px;
+    color:#000;
+    background:#fff;
+}
+
+ 
+h3 {
+    font-size:22px;
+}
+ 
+#content-wrapper {
+    width:960px;
+    text-align:left;
+    margin:0 auto;
+    background:#fff;
+    padding:15px;
+     
+}
+ 
+#header{
+    width:960px;
+    height:120px;
+}
+ 
+#post-content {
+    float:left;
+    width:600px;
+    padding:0 15px 15px 15px;
+}
+ 
+.sidebar{
+    float:left;
+    width:300px;
+    margin:0 0 0 15px;
+    font-size:15px;
+    list-style:none;
+}
+ 
+#footer{
+    height: 60px;
+    background: #fff;
+    padding: 15px;
+    clear:both;
+}
